@@ -1,0 +1,78 @@
+/* GENERAL */
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.single_service_wrapper p {
+    font-family: 'Lora', serif;
+}
+
+#profil_pic {
+    display: none;
+}
+/*Presentation*/
+
+.presentation_wrapper {
+    width: 100%;
+    height: 100vh;
+    background: url(media/imgs/Tablet_bg.png) no-repeat  center fixed;
+    background-size: cover;
+}
+.catch_wrapper {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    width: 100%;
+    margin: auto
+
+}
+.catch_wrapper p {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    padding: 15px;
+}
+#emphasize_text {
+    font-size: 38px;
+}
+#emphasize_text span {
+    color: #EA5D11;
+}
+.contact_button {
+    margin-top: 9em;
+    background:#ea5d11;
+    border-radius:10px;
+    width:295px;
+    height:50px;
+    color: white;
+    font-size: 16px;
+}
+.contact_button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* SERVICES */
+
+.services_wrapper {
+    height: 100vh;
+}
+.services_grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+    text-align: center;
+}
