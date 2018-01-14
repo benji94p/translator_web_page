@@ -3,19 +3,22 @@
         height: 50vh;
     }
     #profil_pic {
-    display: block;
-    max-height: 100px;
-}
+        display: block;
+        max-height: 320px;
+        position: absolute;
+        bottom: 50%;
+        left: 10%;
+    }
     .presentation_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .catch_wrapper p {
-    font-size: 20px;
-}
+        font-size: 20px;
+    }
     #emphasize_text {
-    font-size: 31px;
-}
+        font-size: 31px;
+    }
     .contact_button {
         margin-top: 1em;
     }
@@ -23,12 +26,12 @@
         top: 0;
     }
     .services_grid {
-    display: grid;
-   grid-template-rows: 1fr ;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 10px;
-    text-align: center;
-}
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 10px;
+        text-align: center;
+    }
     .services_wrapper {
         height: 45vh;
     }
@@ -36,10 +39,10 @@
         font-size: 40px;
     }
     .services_wrapper {
-     padding-bottom: 0px;
-}
+        padding-bottom: 0px;
+    }
     footer {
-    height: 5vh;
-    background-color: #383838;
-}
+        height: 5vh;
+        background-color: #383838;
+    }
 }
