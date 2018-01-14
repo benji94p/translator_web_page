@@ -1,0 +1,8 @@
+@media screen and (min-width:600px) {
+    .catch_wrapper p {
+        font-size: 28px;
+    }
+    #emphasize_text {
+        font-size: 44px;
+    }
+}

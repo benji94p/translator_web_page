@@ -5,7 +5,7 @@ html {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-
+    font-size: 100%;
 }
 
 h1 {
@@ -67,12 +67,35 @@ h1 {
 /* SERVICES */
 
 .services_wrapper {
-    height: 100vh;
+
+    background-color: #f5f5f5;
+    padding-bottom: 30px;
+
+}
+.services_wrapper h1 {
+    padding: 20px;
 }
 .services_grid {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    grid-row-gap: 30px;
+    grid-row-gap: 10px;
     text-align: center;
+}
+.single_service_wrapper span {
+    color: #ea5d11;
+}
+.single_service_wrapper img {
+    max-width: 30px;
+}
+.single_service_wrapper p {
+    width: 80%;
+    margin: auto;
+}
+
+/*FOOTER */
+
+footer {
+    height: 20px;
+    background-color: #383838;
 }
