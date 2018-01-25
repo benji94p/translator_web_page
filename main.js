@@ -1,12 +1,23 @@
 /* WORD SWITCHER */
 
-let first = document.querySelector("#first");
-let second = document.querySelector("#second");
+let firstWord = document.querySelector("#first");
+let secondWord = document.querySelector("#second");
 
-function init () (
-    first.textContent = "French";
-)
-init();
+firstWord.textContent = "French";
+firstWord.style.fontFamily = "French";
+secondWord.textContent ="English";
+
 setInterval(function(){
+    if(firstWord.textContent == "French") {
+        firstWord.textContent = "English";
+        secondWord.textContent ="French";
+        firstWord.classList.add('slideInUp');
 
-    ; }, 3000);
+    }
+    else {
+        firstWord.textContent = "French";
+        secondWord.textContent ="English";
+
+    }
+}, 3000);
+
